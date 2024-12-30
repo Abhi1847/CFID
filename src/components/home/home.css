@@ -1,0 +1,93 @@
+.header{
+    background-color: rgb(238, 240, 243);
+    width: 70%;
+    height: 20%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    justify-content: center;
+}
+
+.header .side-img{
+    height: 60%;
+    width: 60%;
+}
+
+.image{
+    margin: auto;
+    width: 80%;
+}
+
+
+.sub-menu{
+    height: 3em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    border-radius: 0.7em;
+    background-color: rgb(220, 223, 225);
+}
+
+.list a:hover{
+    background-color: rgb(199, 200, 202);
+}
+
+.body{
+    margin: 1em;
+    background-color: rgb(238, 240, 243);
+    width: 70%;
+    border-radius: 1em;
+    align-items: center;
+
+}
+
+.ofid{
+    height: 50%;
+    width: 50%;
+}
+
+/* Base styles for the menu */
+.menu {
+    padding: 1rem; /* Base padding */
+  }
+  
+  /* Styles for small screens */
+  @media (max-width: 576px) {
+    .menu {
+      flex-direction: row; /* Stack items vertically */
+         /* Center items horizontally */
+    }
+    
+    .list {
+      margin-bottom: 1rem; /* Add space between items */
+    }
+  }
+  
+  /* Styles for medium screens */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .menu {
+      flex-direction: row;  /* Keep items in a row */
+       /* Center items */
+    }
+    
+    .list {
+      margin: 0 1rem; /* Add horizontal spacing between items */
+    }
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 769px) {
+    .menu {
+      flex-direction: row;  /* Keep items in a row */
+      /* justify-content: space-between; Spread items evenly */
+    }
+    
+    .list {
+      margin: 0 1rem; /* Add horizontal spacing */
+    }
+  }
+  
